@@ -35,5 +35,4 @@ public class AnimalScreenModel {
         return message;
     }
 
-
 }

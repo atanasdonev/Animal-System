@@ -1,4 +1,5 @@
 package uni.fmi.models;
+
 import java.time.LocalDate;
 import java.util.*;
 
@@ -15,12 +16,6 @@ public class Animal {
         this.id = id;
     }
 
-    public Animal(String id, String gender,int age) {
-        this.gender = gender;
-        this.id = id;
-        this.age = age;
-    }
-
     /**
      * @return
      */
@@ -29,7 +24,7 @@ public class Animal {
     }
 
     /**
-     * @param age 
+     * @param age
      * @return
      */
     public void setAge(int age) {
@@ -44,7 +39,7 @@ public class Animal {
     }
 
     /**
-     * @param gender 
+     * @param gender
      * @return
      */
     public void setGender(String gender) {
@@ -59,7 +54,7 @@ public class Animal {
     }
 
     /**
-     * @param name 
+     * @param name
      * @return
      */
     public void setName(String name) {
@@ -74,39 +69,39 @@ public class Animal {
     }
 
     /**
-     * @param id 
+     * @param id
      * @return
      */
     public void setId(String id) {
         this.id = id;
     }
 
-
-    public LocalDate getDateOfLastBirth(){
+    public LocalDate getDateOfLastBirth() {
         return dateOfLastBirth;
     }
 
-    public void setDateOfLastBirth(LocalDate dateOfLastBirth){
+    public void setDateOfLastBirth(LocalDate dateOfLastBirth) {
         this.dateOfLastBirth = dateOfLastBirth;
     }
+
     /**
      * @return
      */
     public Set<Animal> getChildren() {
-        if(children == null){
+        if (children == null) {
             children = new HashSet<Animal>();
         }
         return children;
     }
 
     /**
-     * @param animal 
+     * @param animal
      * @return
      */
     public void setChildren(Set<Animal> animal) {
-        if(animal != null){
-        this.children = animal;
-        }else{
+        if (animal != null) {
+            this.children = animal;
+        } else {
             this.children.clear();
         }
     }
@@ -119,18 +114,12 @@ public class Animal {
     }
 
     /**
-     * @param animal 
+     * @param animal
      * @return
      */
     public void setParents(Animal[] animal) {
         this.parents = animal;
     }
-
-    /**
-     * @param age
-     * @param gender
-     * @return
-     */
 
     @Override
     public boolean equals(Object o) {

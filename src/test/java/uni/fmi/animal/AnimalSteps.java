@@ -17,8 +17,8 @@ public class AnimalSteps {
         animalScreen = new AnimalScreenModel();
     }
 
-    @When("^^Въведе \\\"([^\\\"]*)\\\" за номер на животно$")
-    public void въведе_за_номер_на_животно(String id) {
+    @When("^Въведе \\\"([^\\\"]*)\\\" за номер на животно$")
+    public void enterAnimalId(String id) {
         animalScreen.setAnimalId(id);
     }
 
@@ -26,15 +26,15 @@ public class AnimalSteps {
     public void checkAnimalGender(final String gender) {
         animalScreen.setAnimalGender(gender);
         if (gender.equals("male")) {
-            LocalDate date = LocalDate.of(1000,10,10);
+            LocalDate date = LocalDate.of(1000, 10, 10);
             animalScreen.setDateOfLastBirth(date);
-        }else if(gender.equals("female")){
-            animalScreen.setDateOfLastBirth(LocalDate.of(2021, 02, 07));
+        } else if (gender.equals("female")) {
+            animalScreen.setDateOfLastBirth(LocalDate.of(2021, 2, 7));
         }
     }
 
     @When("^Животното е на повече от две години$")
-    public void checkAnimalAge() {
+    public void checkOverageAnimal() {
         animalScreen.setAnimalAge(3);
     }
 
@@ -55,11 +55,11 @@ public class AnimalSteps {
 
     @When("^Животното не е раждало през последните десет месеца$")
     public void checkDateOfLastBirth() {
-        animalScreen.setDateOfLastBirth(LocalDate.of(2021, 02, 07));
+        animalScreen.setDateOfLastBirth(LocalDate.of(2021, 2, 7));
     }
 
     @When("^Животното е раждало през последните десет месеца$")
-    public void животното_е_раждало_през_последните_десет_месеца() {
-        animalScreen.setDateOfLastBirth(LocalDate.of(2021, 12, 07));
+    public void checkRecentDateOfLastBirth() {
+        animalScreen.setDateOfLastBirth(LocalDate.of(2021, 12, 7));
     }
 }

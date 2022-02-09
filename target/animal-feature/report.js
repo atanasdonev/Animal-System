@@ -22,7 +22,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 144256000,
+  "duration": 198575200,
   "status": "passed"
 });
 formatter.scenario({
@@ -65,10 +65,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 1395900,
+  "duration": 1697200,
   "status": "passed"
 });
 formatter.match({
@@ -81,21 +81,21 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 388300,
+  "duration": 455300,
   "status": "passed"
 });
 formatter.match({
-  "location": "AnimalSteps.checkAnimalAge()"
+  "location": "AnimalSteps.checkOverageAnimal()"
 });
 formatter.result({
-  "duration": 28000,
+  "duration": 35400,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 5952500,
+  "duration": 7542900,
   "status": "passed"
 });
 formatter.match({
@@ -108,7 +108,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 1197700,
+  "duration": 1083700,
   "status": "passed"
 });
 formatter.background({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 27600,
+  "duration": 26300,
   "status": "passed"
 });
 formatter.scenario({
@@ -170,10 +170,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 39900,
+  "duration": 38000,
   "status": "passed"
 });
 formatter.match({
@@ -186,21 +186,21 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 47300,
+  "duration": 48000,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.checkUnderageAnimal()"
 });
 formatter.result({
-  "duration": 27800,
+  "duration": 62500,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 43800,
+  "duration": 46000,
   "status": "passed"
 });
 formatter.match({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 125100,
+  "duration": 40800,
   "status": "passed"
 });
 formatter.background({
@@ -232,7 +232,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 33300,
+  "duration": 25900,
   "status": "passed"
 });
 formatter.scenario({
@@ -275,10 +275,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 43500,
+  "duration": 41600,
   "status": "passed"
 });
 formatter.match({
@@ -291,21 +291,21 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 60600,
+  "duration": 95500,
   "status": "passed"
 });
 formatter.match({
-  "location": "AnimalSteps.checkAnimalAge()"
+  "location": "AnimalSteps.checkOverageAnimal()"
 });
 formatter.result({
-  "duration": 16100,
+  "duration": 31300,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 46900,
+  "duration": 46800,
   "status": "passed"
 });
 formatter.match({
@@ -318,7 +318,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 57200,
+  "duration": 54600,
   "status": "passed"
 });
 formatter.background({
@@ -337,7 +337,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 81700,
+  "duration": 34700,
   "status": "passed"
 });
 formatter.scenario({
@@ -385,10 +385,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 42400,
+  "duration": 72200,
   "status": "passed"
 });
 formatter.match({
@@ -401,28 +401,28 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 60800,
+  "duration": 50300,
   "status": "passed"
 });
 formatter.match({
-  "location": "AnimalSteps.checkAnimalAge()"
+  "location": "AnimalSteps.checkOverageAnimal()"
 });
 formatter.result({
-  "duration": 16700,
+  "duration": 16400,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.checkDateOfLastBirth()"
 });
 formatter.result({
-  "duration": 26600,
+  "duration": 36200,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 41700,
+  "duration": 45600,
   "status": "passed"
 });
 formatter.match({
@@ -435,7 +435,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 47900,
+  "duration": 44600,
   "status": "passed"
 });
 formatter.background({
@@ -454,7 +454,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 31100,
+  "duration": 46100,
   "status": "passed"
 });
 formatter.scenario({
@@ -502,10 +502,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 40600,
+  "duration": 44400,
   "status": "passed"
 });
 formatter.match({
@@ -518,28 +518,28 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 48200,
+  "duration": 59100,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.checkUnderageAnimal()"
 });
 formatter.result({
-  "duration": 18100,
+  "duration": 29700,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.checkDateOfLastBirth()"
 });
 formatter.result({
-  "duration": 19400,
+  "duration": 20300,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 45100,
+  "duration": 43500,
   "status": "passed"
 });
 formatter.match({
@@ -552,7 +552,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 214100,
+  "duration": 43300,
   "status": "passed"
 });
 formatter.background({
@@ -571,7 +571,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 26600,
+  "duration": 30000,
   "status": "passed"
 });
 formatter.scenario({
@@ -619,10 +619,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 48400,
+  "duration": 46000,
   "status": "passed"
 });
 formatter.match({
@@ -635,28 +635,28 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 314300,
+  "duration": 1023100,
   "status": "passed"
 });
 formatter.match({
-  "location": "AnimalSteps.checkAnimalAge()"
+  "location": "AnimalSteps.checkOverageAnimal()"
 });
 formatter.result({
-  "duration": 16000,
+  "duration": 16400,
   "status": "passed"
 });
 formatter.match({
-  "location": "AnimalSteps.животното_е_раждало_през_последните_десет_месеца()"
+  "location": "AnimalSteps.checkDateOfLastBirthSoon()"
 });
 formatter.result({
-  "duration": 35200,
+  "duration": 42500,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 44600,
+  "duration": 50500,
   "status": "passed"
 });
 formatter.match({
@@ -669,7 +669,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 40800,
+  "duration": 49500,
   "status": "passed"
 });
 formatter.background({
@@ -688,7 +688,7 @@ formatter.match({
   "location": "AnimalSteps.openAnimalCheckScreen()"
 });
 formatter.result({
-  "duration": 36400,
+  "duration": 41800,
   "status": "passed"
 });
 formatter.scenario({
@@ -736,10 +736,10 @@ formatter.match({
       "offset": 8
     }
   ],
-  "location": "AnimalSteps.въведе_за_номер_на_животно(String)"
+  "location": "AnimalSteps.enterAnimalId(String)"
 });
 formatter.result({
-  "duration": 101800,
+  "duration": 75900,
   "status": "passed"
 });
 formatter.match({
@@ -752,28 +752,28 @@ formatter.match({
   "location": "AnimalSteps.checkAnimalGender(String)"
 });
 formatter.result({
-  "duration": 44600,
+  "duration": 39300,
   "status": "passed"
 });
 formatter.match({
-  "location": "AnimalSteps.checkAnimalAge()"
+  "location": "AnimalSteps.checkOverageAnimal()"
 });
 formatter.result({
-  "duration": 16800,
+  "duration": 19000,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.checkDateOfLastBirth()"
 });
 formatter.result({
-  "duration": 58300,
+  "duration": 53900,
   "status": "passed"
 });
 formatter.match({
   "location": "AnimalSteps.clickCheckButton()"
 });
 formatter.result({
-  "duration": 37600,
+  "duration": 59600,
   "status": "passed"
 });
 formatter.match({
@@ -786,7 +786,7 @@ formatter.match({
   "location": "AnimalSteps.checkMessage(String)"
 });
 formatter.result({
-  "duration": 42400,
+  "duration": 40500,
   "status": "passed"
 });
 });
